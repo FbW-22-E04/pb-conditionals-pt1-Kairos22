@@ -3,9 +3,9 @@ const int1 = 66;
 const int2 = 11;
 
 if ((int1 >= 50 && int1 <=99) || (int2 >= 50 && int2 <=99)) {
-    console.log('true');
+    console.log(true);
 } else {
-    console.log('false');
+    console.log(false);
 } 
 console.log('------------------------------1');
 
@@ -13,9 +13,9 @@ console.log('------------------------------1');
 const int3 = 44;
 
 if ((int1 >= 50 && int1 <=99) || (int2 >= 50 && int2 <=99) || (int3 >= 50 && int3 <=99)) {
-    console.log('true');
+    console.log(true);
 } else {
-    console.log('false');
+    console.log(false);
 } 
 console.log('-------------------------------2');
 
@@ -25,19 +25,19 @@ const b = 6;
 const c = 9;
 
 if (a > b && a > c) {
-    console.log('a is largest', a);
+    console.log(a);
 } else if (b > a && b > c) {
-    console.log('b is largest', b);
+    console.log(b);
 } else {
-    console.log('c is largest', c);
+    console.log(c);
 }
 
 if (int1> int2 && int1 > int3) {
-    console.log('int1 is largest', int1);
+    console.log(int1);
 } else if (int2 > int1 && int2 > int3) {
-    console.log('int2 is largest', int2);
+    console.log(int2);
 } else {
-    console.log('int3 is largest', int3);
+    console.log(int3);
 }
 console.log('-------------------------------3');
 
